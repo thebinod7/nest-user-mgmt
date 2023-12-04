@@ -1,0 +1,25 @@
+{
+	"name": "txt-generator",
+	"version": "1.0.6",
+	"description": "Random text generator",
+	"main": "dist/index.js",
+	"author": "Binod Chaudhary",
+	"license": "MIT",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "rimraf dist && tsc",
+		"prepublish": "yarn build"
+	},
+	"dependencies": {
+		"@nestjs/common": "^10.2.10",
+		"reflect-metadata": "^0.1.13",
+		"rxjs": "^7.8.1"
+	},
+	"devDependencies": {
+		"@types/node": "^20.10.3",
+		"rimraf": "^5.0.5",
+		"typescript": "^5.3.2"
+	}
+}
