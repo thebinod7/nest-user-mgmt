@@ -1,7 +1,7 @@
 {
-	"name": "txt-generator",
-	"version": "1.0.7",
-	"description": "Random text generator",
+	"name": "rumsan-user",
+	"version": "1.0.8",
+	"description": "RS User management",
 	"main": "dist/index.js",
 	"author": "Binod Chaudhary",
 	"license": "MIT",
